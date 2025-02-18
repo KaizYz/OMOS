@@ -1,0 +1,15 @@
+{
+  "scripts": {
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "analyze": "source-map-explorer 'build/static/js/*.js'",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject"
+  },
+  "devDependencies": {
+    "compression-webpack-plugin": "^6.1.1",
+    "customize-cra": "^1.0.0",
+    "react-app-rewired": "^2.1.8",
+    "source-map-explorer": "^2.5.2"
+  }
+}
